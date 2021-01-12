@@ -81,3 +81,5 @@ async function init() {
         console.log(err);
     }
 }
+
+init();
