@@ -69,3 +69,15 @@ function promptUser(){
         }
     ]);
 } 
+
+// Function Using util.promisify
+async function init() {
+    try {
+        const answers = promptUser();
+        const generateContent = generateReadme(answers);
+        await writeFileSync('./dist/README.md'.generateContent);
+        console.log('Succesfully wrote to README.md');
+    } catch(err) {
+        console.log(err);
+    }
+}
