@@ -3,6 +3,9 @@
   
   ## Description
   A node.js application that uses user input from inquirer to populate a README.md file for user repository.  The README.md file is created in the dis directory.
+
+  Below is a gif showiing the functionality of the application:
+  ![READme Generator]()
   
   ## Table of Contents
   - [Description](#description)
