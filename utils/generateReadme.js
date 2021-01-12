@@ -15,23 +15,27 @@ function generateReadme(answers) {
   - [Tests](#tests)
   - [Questions](#questions)
   
+  ## Installation
+  ${answers.installation}
   
+  ## Usage
+  ${answers.usage}
   
+  ## License
+  This application is covered by the ${answers.license} license.
   
+  ## Contributing
+  ${answers.contributing}
   
+  ## Tests
+  - ${answers.tests}
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  ## Questions
+  ${answers.questions} <br />
+  <br/>
+  Email me with any questions: ${answers.email} <br/>
+
   `
 }
 
-module.exports = generateMarkdown;
+module.exports = generateReadme
