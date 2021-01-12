@@ -1,5 +1,5 @@
 //generateREADME function
-function generatteReadme(answers) {
+function generateReadme(answers) {
   return `
   <h1 align="center">${answers.projectTitle} <h1>
   
