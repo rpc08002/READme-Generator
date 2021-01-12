@@ -35,7 +35,7 @@ function generateReadme(answers) {
   <br/>
   Email me with any questions: ${answers.email} <br/>
 
-  `
+  `;
 }
 
 module.exports = generateReadme
