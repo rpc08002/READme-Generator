@@ -1,7 +1,7 @@
 // Variables
 const fs = require("fs");
 const util = require("util");
-const inquirier = require("inquirer");
+const inquirer = require("inquirer");
 const generateReadme = require("./utils/generateReadme");
 const writeFileSync = util.promisify(fs.writeFile);
 
